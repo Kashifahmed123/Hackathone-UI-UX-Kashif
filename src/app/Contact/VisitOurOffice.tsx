@@ -40,11 +40,8 @@ export default function VisitOurOffice() {
                         <h1 className="mx-[74px] w-[100px] h-[24px] font-bold text-[#252B42] text-[16px] leading-[24px] tracking-[0.1px] text-center">Get Support</h1>
                         <button className="border border-[#23A6F0] rounded-[37px] px-9 py-[15px] mx-[29.5px] w-[189px] h-[54px] font-bold text-[#23A6F0] text-[14px] leading-[24px] tracking-[0.2px] text-center">Submit Request</button>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
         <div className="flex flex-col w-[1535px] h-[348px]">
             <div className="flex flex-col w-[1050px] h-[348px] mx-[242.5px] gap-[16px] py-[80px] px-[389px]">
@@ -52,7 +49,6 @@ export default function VisitOurOffice() {
                 <h1 className="w-[270px] h-[80px] text-[#252B42] text-[58px] leading-[80px] tracking-[0.2px] text-center">Let`&apos;`s Talk</h1>
                 <button className="w-[186px] mx-[50px] h-[52px] rounded-[5px] px-[40px] py-[15px] bg-[#23A6F0] text-white text-[14px] leading-[24px] tracking-[0.1px]">Try it free now</button>
             </div>
-
         </div>
         </main>
     )

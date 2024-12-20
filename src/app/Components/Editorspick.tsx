@@ -12,7 +12,7 @@ export default function EditorsPick() {
                         <h1 className="text-[#252B42] text-[24px] leading-8 font-bold w-[181px] h-[32px] mx-[213px]">EDITOR’S PICK</h1>
                         <h1 className="text-[#737373] text-[14px] leading-5 w-[347px] h-[20px] mx-[130px]">Problems trying to resolve the conflict between</h1>
                     </div>
-                    <div className="flex sm:flex-col lg:flex w-[1050px] h-[500px] gap-[30px]">
+                    <div className="flex sm:flex-col lg:flex-row w-[1050px] h-[500px] gap-[30px]">
                         <div className="relative w-[510px] h-[500px]">
                             <Images src="/Men.png" alt="picture" height={500} width={509} />
                             <button className="absolute top-[426px] left-[31px] px-[65px] py-3 bg-white font-Montserrat font-bold text-[#252B42] text-[16px] leading-[24px] hover:bg-gray-100">MEN
