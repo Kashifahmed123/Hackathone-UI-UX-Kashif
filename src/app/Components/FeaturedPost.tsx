@@ -41,7 +41,8 @@ export default function FeaturedPost() {
                 <div className="flex w-[1065px] h-[606px] gap-[30px]">                  
                         {Post.map((Post, index) => {
                             return (
-                                <div className="flex w-[348px] h-[606px] shadow-md gap-[10px]">
+                                
+                                <div key={index} className="flex w-[348px] h-[606px] shadow-md gap-[10px]">
                                <div className="relative">
                                     <Images src={Post.Image} alt="Post-1 Image" width={348} height={606} className="object-cover" />
                                     <span className="absolute top-5 left-5 bg-[#E74040] w-[58px] h-[24px] text-white text-xs uppercase px-[10px] py-1 rounded-[3px] text-center">
@@ -72,6 +73,7 @@ export default function FeaturedPost() {
                                     </div>
                                 </div>
                                 </div>
+                                
                             )
                         }
                         )

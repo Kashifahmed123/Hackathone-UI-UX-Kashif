@@ -1,4 +1,5 @@
 import react from "react"
+import Image from "next/image"
 
 const Cart2 = () => {
 
@@ -28,7 +29,7 @@ const Cart2 = () => {
                     {Products1.map((FeaturedProducts, index) => {
                         return (
                             <div key={index} className="flex flex-col w-[238px] h-[488px]">
-                                <img src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[300px] object-cover" />
+                                <Image src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[300px] object-cover" />
                                 <div className="flex flex-col  w-full h-[188px] px-[25px] pt-[25px] pb-[35px] gap-[10px]">
                                     <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[131px] h-[24px] mx-[29px] text-center">{FeaturedProducts.Name}</p>
                                     <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[146px] h-[24px] mx-[21.5px] text-center">{FeaturedProducts.Department}</p>
@@ -36,7 +37,7 @@ const Cart2 = () => {
                                         <p className="text-[16px] font-bold leading-[24px] text-[#BDBDBD] tracking-[0.1px] w-[52px] h-[24px] mx-[3px]">${FeaturedProducts.price1}</p>
                                         <p className="text-[14px] font-bold leading-[24px] text-[#23856D] tracking-[0.2px] w-[45px] h-[24px] ">${FeaturedProducts.price2}</p>
                                     </div>
-                                    <img src={FeaturedProducts.Reviews} alt="circles" className="w-[82.23px] h-[16px] mx-[53.38px] object-cover" />
+                                    <Image src={FeaturedProducts.Reviews} alt="circles" className="w-[82.23px] h-[16px] mx-[53.38px] object-cover" />
                                 </div>
                             </div>
 
@@ -48,7 +49,7 @@ const Cart2 = () => {
                     {Products2.map((FeaturedProducts, index) => {
                         return (
                             <div key={index} className="flex flex-col w-[240px] h-[488px]">
-                                <img src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[300px] object-cover" />
+                                <Image src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[300px] object-cover" />
                                 <div className="flex flex-col w-full h-[188px] px-[25px] pt-[25px] pb-[35px] gap-[10px]">
                                     <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[131px] h-[24px] mx-[29px] text-center">{FeaturedProducts.Name}</p>
                                     <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[146px] h-[24px] mx-[21.5px] text-center">{FeaturedProducts.Department}</p>
@@ -56,7 +57,7 @@ const Cart2 = () => {
                                         <p className="text-[16px] font-bold leading-[24px] text-[#BDBDBD] tracking-[0.1px] w-[52px] h-[24px] mx-[3px]">${FeaturedProducts.price1}</p>
                                         <p className="text-[14px] font-bold leading-[24px] text-[#23856D] tracking-[0.2px] w-[45px] h-[24px] ">${FeaturedProducts.price2}</p>
                                     </div>
-                                    <img src={FeaturedProducts.Reviews} alt="circles" className="w-[82.23px] h-[16px] mx-[53.38px] object-cover" />
+                                    <Image src={FeaturedProducts.Reviews} alt="circles" className="w-[82.23px] h-[16px] mx-[53.38px] object-cover" />
                                 </div>
                             </div>
                         )
@@ -68,7 +69,7 @@ const Cart2 = () => {
                     {Products3.map((FeaturedProducts, index) => {
                         return (
                             <div key={index} className="flex flex-col w-[240px] h-[488px]">
-                                <img src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[300px] object-cover" />
+                                <Image src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[300px] object-cover" />
                                 <div className="flex flex-col w-full h-[188px] px-[25px] pt-[25px] pb-[35px] gap-[10px]">
                                     <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[131px] h-[24px] mx-[29px] text-center">{FeaturedProducts.Name}</p>
                                     <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[146px] h-[24px] mx-[21.5px] text-center">{FeaturedProducts.Department}</p>
@@ -76,7 +77,7 @@ const Cart2 = () => {
                                         <p className="text-[16px] font-bold leading-[24px] text-[#BDBDBD] tracking-[0.1px] w-[52px] h-[24px] mx-[3px]">${FeaturedProducts.price1}</p>
                                         <p className="text-[14px] font-bold leading-[24px] text-[#23856D] tracking-[0.2px] w-[45px] h-[24px] ">${FeaturedProducts.price2}</p>
                                     </div>
-                                    <img src={FeaturedProducts.Reviews} alt="circles" className="w-[82.23px] h-[16px] mx-[53.38px] object-cover" />
+                                    <Image src={FeaturedProducts.Reviews} alt="circles" className="w-[82.23px] h-[16px] mx-[53.38px] object-cover" />
                                 </div>
                             </div>
                         )

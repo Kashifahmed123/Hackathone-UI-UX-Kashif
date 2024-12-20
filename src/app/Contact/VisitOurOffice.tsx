@@ -49,7 +49,7 @@ export default function VisitOurOffice() {
         <div className="flex flex-col w-[1535px] h-[348px]">
             <div className="flex flex-col w-[1050px] h-[348px] mx-[242.5px] gap-[16px] py-[80px] px-[389px]">
                 <p className="w-[239px] mx-[16.5px] h-6 text-[#252B42] text-[16px] leading-[24px] tracking-[0.2px] text-center">WE Can't WAIT TO MEET YOU</p>
-                <h1 className="w-[270px] h-[80px] text-[#252B42] text-[58px] leading-[80px] tracking-[0.2px] text-center">Let’s Talk</h1>
+                <h1 className="w-[270px] h-[80px] text-[#252B42] text-[58px] leading-[80px] tracking-[0.2px] text-center">Let's Talk</h1>
                 <button className="w-[186px] mx-[50px] h-[52px] rounded-[5px] px-[40px] py-[15px] bg-[#23A6F0] text-white text-[14px] leading-[24px] tracking-[0.1px]">Try it free now</button>
             </div>
 

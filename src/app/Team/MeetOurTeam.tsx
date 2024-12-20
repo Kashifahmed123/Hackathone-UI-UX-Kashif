@@ -1,8 +1,4 @@
 import Images from "next/image"
-import { ArrowRight } from 'lucide-react';
-import { ChevronRight } from 'lucide-react';
-import { Check } from 'lucide-react';
-
 
 export default function MeetourTeam() {
     const Row1 = [
@@ -30,11 +26,11 @@ export default function MeetourTeam() {
                     {Row1.map((Teams, index) => {
                         return (
                             <div key={index} className="flex flex-col w-[324.6px] h-[383px]">
-                                <img src={Teams.Image} alt={Teams.Name} className="w-[324.6px] h-[231px] object-cover" />
+                                <Images src={Teams.Image} alt={Teams.Name} className="w-[324.6px] h-[231px] object-cover" />
                                 <div className="flex flex-col w-[324.6px] h-[152px] px-[30px] py-[30px] gap-[10px]">
                                     <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[83px] h-[24px] mx-[94.5px] text-center">{Teams.Name}</p>
                                     <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[77px] h-[24px] mx-[97.5px] text-center">{Teams.Department}</p>
-                                    <img src={Teams.Sm} alt={Teams.Sm} className="w-[112px] h-[24px] object-cover mx-[80px]" />
+                                    <Images src={Teams.Sm} alt={Teams.Sm} className="w-[112px] h-[24px] object-cover mx-[80px]" />
                                     
                                 </div>
                             </div>
@@ -48,11 +44,11 @@ export default function MeetourTeam() {
                     {Row2.map((Teams, index) => {
                         return (
                             <div key={index} className="flex flex-col w-[324.6px] h-[383px]">
-                                <img src={Teams.Image} alt={Teams.Name} className="w-[324.6px] h-[231px] object-cover" />
+                                <Images src={Teams.Image} alt={Teams.Name} className="w-[324.6px] h-[231px] object-cover" />
                                 <div className="flex flex-col w-[324.6px] h-[152px] px-[30px] py-[30px] gap-[10px]">
                                     <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[83px] h-[24px] mx-[94.5px] text-center">{Teams.Name}</p>
                                     <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[77px] h-[24px] mx-[97.5px] text-center">{Teams.Department}</p>
-                                    <img src={Teams.Sm} alt={Teams.Sm} className="w-[112px] h-[24px] object-cover mx-[80px]" />
+                                    <Images src={Teams.Sm} alt={Teams.Sm} className="w-[112px] h-[24px] object-cover mx-[80px]" />
                                     
                                 </div>
                             </div>
@@ -66,11 +62,11 @@ export default function MeetourTeam() {
                     {Row3.map((Teams, index) => {
                         return (
                             <div key={index} className="flex flex-col w-[324.6px] h-[383px]">
-                                <img src={Teams.Image} alt={Teams.Name} className="w-[324.6px] h-[231px] object-cover" />
+                                <Images src={Teams.Image} alt={Teams.Name} className="w-[324.6px] h-[231px] object-cover" />
                                 <div className="flex flex-col w-[324.6px] h-[152px] px-[30px] py-[30px] gap-[10px]">
                                     <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[83px] h-[24px] mx-[94.5px] text-center">{Teams.Name}</p>
                                     <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[77px] h-[24px] mx-[97.5px] text-center">{Teams.Department}</p>
-                                    <img src={Teams.Sm} alt={Teams.Sm} className="w-[112px] h-[24px] object-cover mx-[80px]" />
+                                    <Images src={Teams.Sm} alt={Teams.Sm} className="w-[112px] h-[24px] object-cover mx-[80px]" />
                                     
                                 </div>
                             </div>

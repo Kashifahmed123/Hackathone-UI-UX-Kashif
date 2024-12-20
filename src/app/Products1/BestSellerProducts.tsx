@@ -1,5 +1,5 @@
 import Images from "next/image"
-import { ChevronRight } from 'lucide-react';
+
 
 export default function BestSellerProduct() {
     const Products1 = [
@@ -30,7 +30,7 @@ export default function BestSellerProduct() {
                         {Products1.map((FeaturedProducts, index) => {
                             return (
                                 <div key={index} className="flex flex-col w-[238px] h-[488px]">
-                                    <img src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[280px] object-cover" />
+                                    <Images src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[280px] object-cover" />
                                     <div className="flex flex-col w-full h-[162px] px-[25px] pt-[25px] pb-[35px] gap-[10px]">
                                         <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[131px] h-[24px] mx-[29px] text-center">{FeaturedProducts.Name}</p>
                                         <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[146px] h-[24px] mx-[21.5px] text-center">{FeaturedProducts.Department}</p>
@@ -48,7 +48,7 @@ export default function BestSellerProduct() {
                         {Products1.map((FeaturedProducts, index) => {
                             return (
                                 <div key={index} className="flex flex-col w-[238px] h-[488px]">
-                                    <img src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[280px] object-cover" />
+                                    <Images src={FeaturedProducts.Image} alt={FeaturedProducts.Name} className="w-[239px] h-[280px] object-cover" />
                                     <div className="flex flex-col  w-full h-[162px] px-[25px] pt-[25px] pb-[35px] gap-[10px]">
                                         <p className="text-[16px] font-bold leading-[24px] text-[#252B42] w-[131px] h-[24px] mx-[29px] text-center">{FeaturedProducts.Name}</p>
                                         <p className="text-[14px] font-bold leading-[24px] text-[#737373] tracking-[0.2px] w-[146px] h-[24px] mx-[21.5px] text-center">{FeaturedProducts.Department}</p>
